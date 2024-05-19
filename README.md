@@ -1,19 +1,23 @@
-### Hi there 👋
+### Hakim Takiyuddin
 
 ```javascript
 const hakimTakiyuddin = {
   pronouns: "He" | "Him",
   code: ["Javascript", "Typescript", "PHP"],
-  askMeAbout: ["tech"],
+  askMeAbout: ["tech", "film", "photography"],
   technologies: {
     backEnd: {
-      js: ["Node", "NestJS", "Express", "Laravel"],
+      tools: ["Node", "NestJS", "Express", "Laravel", "rabbitMQ", "kafka"],
     },
     frontEnd: {
-      native: ["React", "NextJS"],
+      tools: ["React", "NextJS"],
     },
-    devOps: ["AWS", "Docker🐳", "Argo"],
-    databases: ["mongo", "MySql"],
+    testing: {
+      unitTesing: ["Jest"],
+      performanceTesting: ["K6"],
+    },
+    devOps: ["AWS", "Docker🐳", "Argo", "Grafana", "Cloudflare"],
+    databases: ["mongoDB", "MySql", "Redis"],
   },
 };
 ```
